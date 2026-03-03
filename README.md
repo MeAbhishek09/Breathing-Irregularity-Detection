@@ -36,12 +36,12 @@ Project Root/
 │
 ├── Data/                     # Raw participant data (AP01–AP05)
 ├── Dataset/
-│   └── windows.pkl           # Processed window dataset
+│   └── windows_file.pkl           # Processed window dataset
 ├── Models/
 │   ├── cnn_test_APxx.h5      # LOPO fold models
 │   └── final_cnn.h5          # Final deployment model
 ├── Visualizations/
-│   └── APxx_clinical.pdf     # Multi‑page PSG plots
+│   └── APxx_report.pdf     # Multi‑page PSG plots
 └── scripts/
     ├── vis.py                # Visualization pipeline
     ├── create_dataset.py     # Preprocessing & windowing
